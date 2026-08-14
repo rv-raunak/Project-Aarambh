@@ -1,0 +1,47 @@
+# Global / OS
+.DS_Store
+
+# IDEs
+.idea/
+*.iws
+*.iml
+*.ipr
+.vscode/
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Security & Secrets
+application.properties
+*.env
+*.env.*
+
+# Backend
+target/
+.mvn/wrapper/maven-wrapper.jar
+build/
+nbproject/private/
+nbbuild/
+nbdist/
+.nb-gradle/
+
+# Frontend
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+node_modules/
+dist/
+dist-ssr/
+*.local
+.node_modules/
