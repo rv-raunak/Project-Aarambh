@@ -154,10 +154,10 @@ Follow these steps to run the application locally on your machine.
 * Maven (Optional: `mvnw` wrapper is included)
 
 ### ⚠️ Step 1: Database Configuration
-For security, database passwords are not stored in this repository. 
-1. Navigate to `project-aarambh-backend/project-aarambh/src/main/resources/application.properties`.
-2. Locate the placeholder `YOUR_DATABASE_PASSWORD_HERE`.
-3. Replace it with your actual local credentials. *(Note: If you remain on the H2 in-memory DB, no password changes are strictly necessary).*
+For security, active database credentials are not stored in this repository. 
+1. Navigate to `project-aarambh-backend/project-aarambh/src/main/resources/`.
+2. Copy `application.properties.example` and rename the copy to `application.properties`.
+3. Open `application.properties` and replace the placeholder `YOUR_DATABASE_PASSWORD_HERE` with your actual local credentials. *(Note: If you remain on the H2 in-memory DB, no password changes are strictly necessary).*
 
 ### 🖥️ Step 2: Running the Backend
 Open a terminal and navigate to the backend directory:
